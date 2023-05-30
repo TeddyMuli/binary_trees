@@ -12,7 +12,6 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	/* declaration of the new node with its data type */
 	binary_tree_t *new;
-
 	/* allocate memory space for that node */
 	new = (binary_tree_t *)malloc(sizeof(binary_tree_t));
 
